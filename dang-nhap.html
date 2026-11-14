@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập - TechNova</title>
+    <link rel ="stylesheet" href="assets/css/dang-nhap.css">
+</head>
+<body>
+
+    <div class="auth-container">
+        <div id="message-box" class="message-box"></div>
+
+        <form id="login-form">
+            <h2>Chào mừng trở lại!</h2>
+            <p class="subtitle">Đăng nhập để tiếp tục mua sắm và nhận ưu đãi</p>
+            
+            <div class="input-group">
+                <label for="login-email">Email</label>
+                <input type="email" id="login-email" placeholder="Nhập email của bạn" required>
+            </div>
+
+            <div class="input-group">
+                <label for="login-password">Mật khẩu</label>
+                <input type="password" id="login-password" placeholder="Nhập mật khẩu" required>
+            </div>
+
+            <div class="form-options">
+                <label class="remember-me">
+                    <input type="checkbox" id="remember"> Ghi nhớ đăng nhập
+                </label>
+                <a href="#" class="forgot-pass">Quên mật khẩu?</a>
+            </div>
+
+            <button type="submit" class="btn-submit">Đăng Nhập</button>
+
+            <p class="switch-text">
+                Chưa có tài khoản? <a href="dang-ky.html">Đăng ký ngay</a>
+            </p>
+        </form>
+    </div>
+    <script src="assets/js/dang-nhap.js"></script>
+</body>
+</html>
